@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-def uppercase(str):
-    lastDigit = abs(number) % 10
-    print(lastDigit, end='')
-    return lastDigit
+def print_last_digit(number):
+    print(abs(number) % 10, end="")
+    return (abs(number) % 10)
